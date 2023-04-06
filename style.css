@@ -1,0 +1,57 @@
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h3{
+    background-color: black;
+    color: white;
+    width: 60px;
+    text-align: center;
+    margin: 0px;  
+}
+section{
+    margin:5px;
+    float: left;
+    background-color: grey;
+    color: white;
+    width: 32%;
+    border: 2px solid rebeccapurple;
+}
+p{
+    padding: 5px;
+}
+section > h3{
+    padding: 0px;
+    float: right;
+}
+@media (min-width: 992){
+    section{
+        width: 32%;
+    }
+}
+@media (min-width :768px) and (max-width:991px){
+    .one , .two{
+        width: 47%;
+        margin:10px;
+        
+    }
+    .three{
+        margin :10 px;
+        width: 97%;
+    }
+}
+@media (max-width:767px){
+    div{
+        align-items: center;
+    }
+    section{
+        margin : 10px;
+        width: 97%;
+    }
+}
